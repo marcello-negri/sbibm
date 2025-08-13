@@ -11,7 +11,7 @@ authors = [
     { name = "Jan-Matthis Lueckmann", email = "mail@jan-matthis.de" },
     { name = "Jan Boelts", email = "jan.boelts@mailbox.org" }
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 license = { text = "MIT" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -31,7 +31,6 @@ classifiers = [
 ]
 dependencies = [
     "autograd",
-    "elfi>=0.7.6",
     "deneb",
     "diffeqtorch",
     "future",
